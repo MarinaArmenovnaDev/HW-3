@@ -8,7 +8,7 @@
     margin: 0 auto;
     width: 100%;
     /* 📍 Максимальная ширина для контейнера */
-    max-width: 1440px;
+    max-width: 1140px;
 }
 
 body {
@@ -131,8 +131,7 @@ select:hover,
 .skills-block {
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
    display: flex;
-   flex-direction: column;
-   order: 1;
+   flex-direction:column-reverse
 }
 
 .skills {
@@ -141,7 +140,6 @@ select:hover,
     display: flex;
     flex-direction: column;
     gap: 20px;
-    order: 2;
 }
 
 .books-list {
